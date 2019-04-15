@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<div id="layer_unseen"></div>
+<h1 class="game-title">The Classic MeMmmm Game</h1>
+<div class="game-stats">
+    <div class="game-stats__level">
+        <div class="game-stats__level--label">Current Level:</div>
+        <div class="game-stats__level--value" >1</div>
+    </div>
+    <div class="game-stats__score">
+        <div class="game-stats__score--label">Score:</div>
+        <div class="game-stats__score--value">0</div>
+    </div>
+    <button class="game-stats__button" type="button">New Game</button>
+</div>
+<div class="game-timer" >
+    <div class="game-timer__bar" id="time_show">60s</div>
+</div>
+<!--<div class="game-board" style="grid-template-columns: 1fr 1fr;">-->
+    <!--<div class="card css3" data-tech="css3">-->
+        <!--&lt;!&ndash;&lt;!&ndash;<div class="card__face card__face&#45;&#45;front "></div>&ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="card__face card__face&#45;&#45;back "></div>&ndash;&gt;-->
+        <!--<div><img src="icons/nodejs.svg" alt="??"></div>-->
+    <!--</div>-->
+    <!--<div class="card html5" data-tech="html5">-->
+        <!--<div class="card__face card__face&#45;&#45;front"></div>-->
+        <!--<div class="card__face card__face&#45;&#45;back"></div>-->
+    <!--</div>-->
+    <!--<div class="card css3" data-tech="css3">-->
+        <!--<div class="card__face card__face&#45;&#45;front"></div>-->
+        <!--<div class="card__face card__face&#45;&#45;back"></div>-->
+    <!--</div>-->
+    <!--<div class="card html5" data-tech="html5">-->
+        <!--<div class="card__face card__face&#45;&#45;front"></div>-->
+        <!--<div class="card__face card__face&#45;&#45;back"></div>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="game-board">
+    <div class="game-instruction">
+        <h3 class="game-instruction__header">Instruction</h3>
+        <p class="game-instruction__content">
+             - Click on the card to view the back face of the card. <br/>
+             - Get two exact same card to score.<br/>- Score are based on the time
+            and level. <br/>- You only have 60s for each level. <br/>- There are
+            three levels, '2x2', '4x4' and '6x6'. <br/>- Press 'Start Game'
+            button when you are ready.
+        </p>
+    </div>
+    
+    <div class="game_level_1">
+        <div>
+            <div class="front_html5"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_html5"><img src="css/icons/html5.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_html5"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_html5"><img src="css/icons/html5.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_linkedin"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_linkedin"><img src="css/icons/linkedin.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_linkedin"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_linkedin"><img src="css/icons/linkedin.svg" alt=""></div>
+        </div>
+    </div>
+    
+    <div class="game_level_2">
+        <div>
+            <div class="front_aws"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_aws"><img src="css/icons/aws.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_css3"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_css3"><img src="css/icons/css3.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_github"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_github"><img src="css/icons/github.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_heroku"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_heroku"><img src="css/icons/heroku.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_html5"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_html5"><img src="css/icons/html5.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_linkedin"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_linkedin"><img src="css/icons/linkedin.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_aws"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_aws"><img src="css/icons/aws.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_css3"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_css3"><img src="css/icons/css3.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_github"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_github"><img src="css/icons/github.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_heroku"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_heroku"><img src="css/icons/heroku.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_html5"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_html5"><img src="css/icons/html5.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_linkedin"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_linkedin"><img src="css/icons/linkedin.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+    </div>
+    
+    <div class="game_level_3">
+        <div>
+            <div class="front_aws"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_aws"><img src="css/icons/aws.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_css3"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_css3"><img src="css/icons/css3.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_github"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_github"><img src="css/icons/github.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_heroku"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_heroku"><img src="css/icons/heroku.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_html5"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_html5"><img src="css/icons/html5.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_linkedin"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_linkedin"><img src="css/icons/linkedin.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_aws"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_aws"><img src="css/icons/aws.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_css3"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_css3"><img src="css/icons/css3.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_github"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_github"><img src="css/icons/github.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_heroku"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_heroku"><img src="css/icons/heroku.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_html5"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_html5"><img src="css/icons/html5.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_linkedin"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_linkedin"><img src="css/icons/linkedin.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_react"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_react"><img src="css/icons/react.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_sass"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_sass"><img src="css/icons/sass.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_react"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_react"><img src="css/icons/react.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_sass"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_sass"><img src="css/icons/sass.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_aws"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_aws"><img src="css/icons/aws.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_aws"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_aws"><img src="css/icons/aws.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_css3"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_css3"><img src="css/icons/css3.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_css3"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_css3"><img src="css/icons/css3.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_github"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_github"><img src="css/icons/github.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_github"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_github"><img src="css/icons/github.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_heroku"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_heroku"><img src="css/icons/heroku.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_heroku"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_heroku"><img src="css/icons/heroku.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_js"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_js"><img src="css/icons/js.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+        <div>
+            <div class="front_node"><img src="css/icons/m.png" alt=""></div>
+            <div class="back_node"><img src="css/icons/nodejs.svg" alt=""></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
