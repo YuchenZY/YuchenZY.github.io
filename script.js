@@ -8,6 +8,79 @@ window.onload = function() {
     var timeLeft = 60;
     var canPlay = true; //Whether the user still have time to play the game
     var timeBarWidth = 550;
+    var html5 = {frontclass:"front_html5", frontsrc:"css/icons/m.png", backclass:"back_html5", backsrc:"css/icons/html5.svg"};
+    var linkedin = {frontclass:"front_linkedin", frontsrc:"css/icons/m.png", backclass:"back_linkedin", backsrc:"css/icons/linkedin.svg"};
+    var aws = {frontclass:"front_aws", frontsrc:"css/icons/m.png", backclass:"back_aws", backsrc:"css/icons/aws.svg"};
+    var css3 = {frontclass:"front_css3", frontsrc:"css/icons/m.png", backclass:"back_css3", backsrc:"css/icons/css3.svg"};
+    var github = {frontclass:"front_github", frontsrc:"css/icons/m.png", backclass:"back_github", backsrc:"css/icons/github.svg"};
+    var heroku = {frontclass:"front_heroku", frontsrc:"css/icons/m.png", backclass:"back_heroku", backsrc:"css/icons/heroku.svg"};
+    var js = {frontclass:"front_js", frontsrc:"css/icons/m.png", backclass:"back_js", backsrc:"css/icons/js.svg"};
+    var node = {frontclass:"front_node", frontsrc:"css/icons/m.png", backclass:"back_node", backsrc:"css/icons/nodejs.svg"};
+    var react = {frontclass:"front_react", frontsrc:"css/icons/m.png", backclass:"back_react", backsrc:"css/icons/react.svg"};
+    var sass = {frontclass:"front_sass", frontsrc:"css/icons/m.png", backclass:"back_sass", backsrc:"css/icons/sass.svg"};
+    var imageline = [html5, linkedin, aws, css3, github, heroku, js, node, react, sass];
+
+    //Put cards into the gameboard in pairs randomly
+    function createCards (level){
+        if(level == 1){
+            var cardPairNumber = 2;
+            var cardArr = [];
+            for(var i = 0; i < cardPairNumber; i++){
+                cardArr.push(imageline[Math.floor(Math.random()*10)]);
+            }
+            cardArr = (cardArr.concat(cardArr)).sort(() => Math.random() - 0.5);
+            for(var j = 0; j < cardArr.length; j++){
+                if(document.getElementsByClassName("game_level_1")[0].children[j].getElementsByTagName("div")[0].className != undefined){
+                    document.getElementsByClassName("game_level_1")[0].children[j].getElementsByTagName("div")[0].className = cardArr[j].frontclass;
+                }
+                if(document.getElementsByClassName("game_level_1")[0].children[j].getElementsByTagName("div")[1].className != undefined){
+                    document.getElementsByClassName("game_level_1")[0].children[j].getElementsByTagName("div")[1].className = cardArr[j].backclass;
+                }
+                if(document.getElementsByClassName("game_level_1")[0].children[j].getElementsByTagName("div")[1].getElementsByTagName("img")[0].src != undefined){
+                    document.getElementsByClassName("game_level_1")[0].children[j].getElementsByTagName("div")[1].getElementsByTagName("img")[0].src = cardArr[j].backsrc;
+                }
+            }
+        }
+        else if(level == 2){
+            var cardPairNumber = 8;
+            var cardArr = [];
+            for(var i = 0; i < cardPairNumber; i++){
+                cardArr.push(imageline[Math.floor(Math.random()*10)]);
+            }
+            cardArr = (cardArr.concat(cardArr)).sort(() => Math.random() - 0.5);
+            for(var j = 0; j < cardArr.length; j++){
+                if(document.getElementsByClassName("game_level_2")[0].children[j].getElementsByTagName("div")[0].className != undefined){
+                    document.getElementsByClassName("game_level_2")[0].children[j].getElementsByTagName("div")[0].className = cardArr[j].frontclass;
+                }
+                if(document.getElementsByClassName("game_level_2")[0].children[j].getElementsByTagName("div")[1].className != undefined){
+                    document.getElementsByClassName("game_level_2")[0].children[j].getElementsByTagName("div")[1].className = cardArr[j].backclass;
+                }
+                if(document.getElementsByClassName("game_level_2")[0].children[j].getElementsByTagName("div")[1].getElementsByTagName("img")[0].src != undefined){
+                    document.getElementsByClassName("game_level_2")[0].children[j].getElementsByTagName("div")[1].getElementsByTagName("img")[0].src = cardArr[j].backsrc;
+                }
+            }
+        }
+        else if(level == 3){
+            var cardPairNumber = 18;
+            var cardArr = [];
+            for(var i = 0; i < cardPairNumber; i++){
+                cardArr.push(imageline[Math.floor(Math.random()*10)]);
+            }
+            cardArr = (cardArr.concat(cardArr)).sort(() => Math.random() - 0.5);
+            for(var j = 0; j < cardArr.length; j++){
+                if(document.getElementsByClassName("game_level_3")[0].children[j].getElementsByTagName("div")[0].className != undefined){
+                    document.getElementsByClassName("game_level_3")[0].children[j].getElementsByTagName("div")[0].className = cardArr[j].frontclass;
+                }
+                if(document.getElementsByClassName("game_level_3")[0].children[j].getElementsByTagName("div")[1].className != undefined){
+                    document.getElementsByClassName("game_level_3")[0].children[j].getElementsByTagName("div")[1].className = cardArr[j].backclass;
+                }
+                if(document.getElementsByClassName("game_level_3")[0].children[j].getElementsByTagName("div")[1].getElementsByTagName("img")[0].src != undefined){
+                    document.getElementsByClassName("game_level_3")[0].children[j].getElementsByTagName("div")[1].getElementsByTagName("img")[0].src = cardArr[j].backsrc;
+                }
+            }
+        }
+    }
+
 
     //For every second, the timeleft minus 1 and timeBarWidth minus 9
     function timeCount (){
@@ -37,6 +110,7 @@ window.onload = function() {
             level += 1;
             timeLeft = 60;
             timeBarWidth = 550;
+            createCards(1);
             timeCount();
         }
         else{
@@ -124,11 +198,15 @@ window.onload = function() {
                                 if(level == 1){
                                     level = 2;
                                     correctToPass = 8;
+                                    createCards(2);
+                                    document.getElementsByClassName("game-stats__level--value")[0].innerHTML = "2"
                                     document.getElementsByClassName("game_level_2")[0].style.display = "block";
                                 }
                                 else if(level == 2){
                                     level = 3;
                                     correctToPass = 18;
+                                    createCards(3);
+                                    document.getElementsByClassName("game-stats__level--value")[0].innerHTML = "3"
                                     document.getElementsByClassName("game_level_3")[0].style.display = "block";
                                 }
                                 else if(level == 3){
