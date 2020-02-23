@@ -164,25 +164,25 @@ window.onload = function(){
            
             if(rightAnswerPlace == 1){
                 var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" +
-                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer1.name +
+                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer1.name +
                 "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 2){
                 var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone right-answer'>" + rightAnswer.name +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name +
                 "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 3){
                 var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name +
                 "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else{
                 var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name +
                 "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>"
                 + rightAnswer.name + "</button>";
             }
@@ -221,27 +221,27 @@ window.onload = function(){
             arr2.splice(wrongAnswer3Place,1);
            
             if(rightAnswerPlace == 1){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" +
-                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer1.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" +
+                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer1.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 2){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone right-answer'>" + rightAnswer.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 3){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else{
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>"
                 + rightAnswer.name + "</button>";
             }
 
@@ -279,27 +279,27 @@ window.onload = function(){
             arr2.splice(wrongAnswer3Place,1);
            
             if(rightAnswerPlace == 1){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" +
-                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer1.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" +
+                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer1.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 2){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone right-answer'>" + rightAnswer.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 3){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else{
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>"
                 + rightAnswer.name + "</button>";
             }
 
@@ -337,27 +337,27 @@ window.onload = function(){
             arr2.splice(wrongAnswer3Place,1);
            
             if(rightAnswerPlace == 1){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" +
-                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer1.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" +
+                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer1.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 2){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone right-answer'>" + rightAnswer.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 3){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else{
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-3 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>"
                 + rightAnswer.name + "</button>";
             }
 
@@ -398,27 +398,27 @@ window.onload = function(){
             arr2.splice(wrongAnswer3Place,1);
            
             if(rightAnswerPlace == 1){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-case right-answer'>" +
-                rightAnswer.name + "," + rightAnswer.price + "</button><button type='button' class='btn btn-secondary col-3 answer-case wrong-answer'>" + wrongAnswer1.name + "," + wrongAnswer1.price +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price + "</button><button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case right-answer'>" +
+                rightAnswer.name + "," + rightAnswer.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" + wrongAnswer1.name + "," + wrongAnswer1.price +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>"
                 + wrongAnswer3.name + "," + wrongAnswer3.price + "</button>";
             }
             else if(rightAnswerPlace == 2){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>" +
-                wrongAnswer1.name + "," + wrongAnswer1.price + "</button><button type='button' class='btn btn-secondary col-3 answer-case right-answer'>" + rightAnswer.name + "," + rightAnswer.price +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price + "</button><button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" +
+                wrongAnswer1.name + "," + wrongAnswer1.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case right-answer'>" + rightAnswer.name + "," + rightAnswer.price +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>"
                 + wrongAnswer3.name + "," + wrongAnswer3.price + "</button>";
             }
             else if(rightAnswerPlace == 3){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>" +
-                wrongAnswer1.name + "," + wrongAnswer1.price + "</button><button type='button' class='btn btn-secondary col-3 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-case right-answer'>" + rightAnswer.name + "," + rightAnswer.price + "</button><button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" +
+                wrongAnswer1.name + "," + wrongAnswer1.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case right-answer'>" + rightAnswer.name + "," + rightAnswer.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>"
                 + wrongAnswer3.name + "," + wrongAnswer3.price + "</button>";
             }
             else{
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>" +
-                wrongAnswer1.name + "," + wrongAnswer1.price + "</button><button type='button' class='btn btn-secondary col-3 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-case wrong-answer'>" + wrongAnswer3.name + "," + wrongAnswer3.price + "</button><button type='button' class='btn btn-secondary col-2 answer-case right-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" +
+                wrongAnswer1.name + "," + wrongAnswer1.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" + wrongAnswer2.name + "," + wrongAnswer2.price +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case wrong-answer'>" + wrongAnswer3.name + "," + wrongAnswer3.price + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-case right-answer'>"
                 + rightAnswer.name + "," + rightAnswer.price + "</button>";
             }
 
@@ -459,8 +459,8 @@ window.onload = function(){
         $(".answer-case").removeClass("btn-success");
         $(".answer-case").removeClass("btn-danger");
         $(".answer-case").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-2 answer-case right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-2 answer-case wrong-answer");
+        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-case right-answer");
+        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-case wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             caseScore++;
@@ -472,8 +472,8 @@ window.onload = function(){
         $(".answer-phone").removeClass("btn-success");
         $(".answer-phone").removeClass("btn-danger");
         $(".answer-phone").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-2 answer-phone right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-2 answer-phone wrong-answer");
+        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-phone right-answer");
+        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-phone wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             phoneScore++;
