@@ -163,27 +163,27 @@ window.onload = function(){
             arr2.splice(wrongAnswer3Place,1);
            
             if(rightAnswerPlace == 1){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" +
-                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer1.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" +
+                rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer1.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 2){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else if(rightAnswerPlace == 3){
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>" + rightAnswer.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>"
                 + wrongAnswer3.name + "</button>";
             }
             else{
-                var answerButtons = "<button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" +
-                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer2.name +
-                "</button><button type='button' class='btn btn-secondary col-2 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-2 answer-phone right-answer'>"
+                var answerButtons = "<button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" +
+                wrongAnswer1.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer2.name +
+                "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone wrong-answer'>" + wrongAnswer3.name + "</button><button type='button' class='btn btn-secondary col-xl-2 col-sm-6 answer-phone right-answer'>"
                 + rightAnswer.name + "</button>";
             }
 
