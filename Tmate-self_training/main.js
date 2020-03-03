@@ -43,7 +43,6 @@ window.onload = function(){
     var case42={name:"Heavy duty slim",price:"35",image:"images/case42.png"};
     var case43={name:"Magnetic wallet with zip",price:"50",image:"images/case43.png"};
 
-
     var iphone1 = {name:"Iphone11 Pro Max", desc:"[6.5 inches, 三个摄像头，屏幕大]", images:"images/iphone1.png"};
     var iphone2 = {name:"Iphone11 Pro", desc:"[5.8 inches, 三个摄像头，屏幕小]", images:"images/iphone2.png"};
     var iphone3 = {name:"Iphone11", desc:"[6.1 inches, 2个摄像头一个灯]", images:"images/iphone3.png"};

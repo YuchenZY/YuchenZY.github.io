@@ -76,3 +76,20 @@ a:link {
   #learnDiv h3{
         margin: 10px;
   }
+
+  .form-group{
+    text-align: center;
+    font-size: 32px;
+  }
+
+  #password_check_button{
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 24px;
+    color: aliceblue;
+    background-color: #007BFF;
+    border:  transparent 1px solid;
+    margin: 10px;
+    border-radius: .25rem;
+
+  }

@@ -8,53 +8,23 @@
     <link rel="stylesheet" href="style.css" >
 </head>
 <body>
-<div class="container height-100">
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link" id="learnButton">learning Resources</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mock Tests</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" id="caseTestButton">Phone/Tablet Case and accesaries identification</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" id="modelTestButton">Phone/Tablet Model identification</a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  <div class="flex_center_col" id="learnDiv" >
-      <h3><a href="https://docs.google.com/document/d/1Cezcgg5q0E1dhUtiWu4GBBkmisuY_vX08y9uHycfSdE/edit?usp=sharing">Phone/Tablet Models</a></h3>
-      <h3><a href="https://docs.google.com/document/d/1lI6YAAMYovBv6VNgo5h68UYH_18a4acI7SlV26dNZ3E/edit">Phone/Tablet Case and accesaries</a></h3>
-      <h3><a href="https://docs.google.com/document/d/1iJcCNckkEwSum43xMUPY8QfSAW9EYV_GaOpPAThcpD8/edit?usp=sharing">Other</a></h3>
-  </div>
-
-  <div class="width-80 flex_center_col" id="caseDiv" style="display: none;">
-    <div class='alert alert-primary'  style='text-align: center;' role='alert' id="case_question_num"></div>
-    <div id="caseQuestion">
-      <div class="flex_center_row row" id="caseContinue" style="margin-top: 40px;">
-        <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="width-80 flex_center_col" id="phoneDiv" style="display: none;">
-    <div class='alert alert-primary'  style='text-align: center;' role='alert' id="model_question_num"></div>
-    <div id="phoneQuestion">
-      <div class="flex_center_row row" id="caseContinue" style="margin-top: 40px;">
-        <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
-      </div>
-    </div>
-  </div>
-  <div class="width-80 flex_center_col" id="generalDiv" style="display: none;">
-    <div class="width-80 flex_center_row">General</div>
-  </div>
-    
+<div class="container height-100 ">
+    <form>
+        <div class="form-group">
+          <label for="exampleInputPassword1" id="password_notice">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+          <div class="row flex_center_row">
+            <div class="col-2" id="password_check_button">
+                Submit
+            </div>
+        </div>
+        </div>
+        
+    </form>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="main.js" ></script>
+  <script src="password.js" ></script>
 </div>
 </body>
 </html>
