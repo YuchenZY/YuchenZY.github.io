@@ -53,12 +53,16 @@ window.onload = function(){
     var iphone9 = {name:"Iphone 7/8", desc:"[4.7 inches, 大摄像头小闪光灯，左中右结构]", images:"images/iphone9.png"};
     var iphone10 = {name:"Iphone 6/6s/6 Plus/6s Plus", desc:"[4.7/5.5 inches, 摄像头不过线，左中右结构，有耳机孔]", images:"images/iphone10.png"};
     var iphone11 = {name:"Iphone 5c", desc:"[糖果色]", images:"images/iphone11.png"};
+    var iphone12 = {name:"Iphone 12 Pro Max", desc:"6.7 inches, 三个摄像头，边为直角 ", images:"images/iphone12.jpg"};
+    var iphone13 = {name:"Iphone 12 Pro", desc:"6.1 inches 三个摄像头，直角边", images:"images/iphone13.jpg"};
+    var iphone14 = {name:"Iphone 12", desc:"6.1 inches 两个摄像头，直角边", images:"images/iphone14.jpg"};
+    var iphone15 = {name:"Iphone 12 mini", desc:"5.4 inches 两个摄像头，直角边", images:"images/iphone15.jpg"};
 
     var ipad1 = {name:"IPAD mini 3", desc:"[有指纹解锁,单个摄像头，收音孔在背部中间，有静音键]", images:"images/ipad1.png"};
     var ipad2 = {name:"IPAD mini/mini 2", desc:"[没有指纹解锁,单个摄像头，收音孔在背部中间，有静音键]", images:"images/ipad2.png"};
     var ipad3 = {name:"IPAD mini 4", desc:"[有指纹解锁,收音孔在摄像头右侧，没有静音键]", images:"images/ipad3.png"};
     var ipad4 = {name:"IPAD mini5(2019)", desc:"[有指纹解锁,收音孔在背部中间，没有静音键]", images:"images/ipad4.png"};
-    var ipad5 = {name:"IPAD 1/2/3/4", desc:"[四面边宽一样粗，底部有大充电口和收音口，有静音按钮，9.7inch]", images:"images/ipad5.png"};
+    var ipad5 = {name:"IPAD 2/3/4", desc:"[四面边宽一样粗，底部有大充电口和收音口，有静音按钮，9.7inch]", images:"images/ipad5.png"};
     var ipad6 = {name:"IPAD Air1", desc:"[没有指纹解锁,单个摄像头，收音孔在背部中间，有静音键，9.7inch]", images:"images/ipad6.png"};
     var ipad7 = {name:"IPAD Air2", desc:"[没有指纹解锁,收音孔在摄像头右侧，没有静音键，9.7inch]", images:"images/ipad7.png"};
     var ipad8 = {name:"IPAD 9.7(2017/2018)", desc:"[没有指纹解锁,收音孔在背部中间，没有静音键，9.7inch]", images:"images/ipad8.png"};
@@ -67,6 +71,10 @@ window.onload = function(){
     var ipad11 = {name:"IPAD Pro 12.9inch(2017)", desc:"[摄像头和闪光灯是上下结构]", images:"images/ipad11.png"};
     var ipad12 = {name:"IPAD Pro 10.5inch", desc:"[摄像头和闪光灯是上下结构]", images:"images/ipad12.png"};
     var ipad13 = {name:"IPAD Pro 9.7inch(2016)", desc:"[摄像头和闪光灯是上下结构]", images:"images/ipad13.png"};
+    var ipad14 = {name:"IPAD Air 4", desc:"指纹解锁，无静音键，无home button, 10.9inch, 四边为方形", images:"images/ipad14.jpg"};
+    var ipad15 = {name:"IPAD Pro 12.9(2020)", desc:"12.9inch, 四周方形，无home button", images:"images/ipad15.png"};
+    var ipad16 = {name:"iPad Pro 11 (2020)", desc:"11inch,四边为方形", images:"images/ipad16.png"};
+    var ipad17 = {name:"iPad Pro 12.9 (2018)", desc:"12.9inch,没有HOME键,鏡頭無框呈圓形,閃光燈在鏡頭下方,四邊為方型,機身上下方均帶speaker", images:"images/ipad17.png"};
 
     var samsung1 = {name:"Samsung S10/S10+", desc:"[6.4/6.7inch,背面有特别长的横条摄像头]", images:"images/samsung1.png"};
     var samsung2 = {name:"Samsung S8", desc:"[5.8inch,背面三样东西，中间是方形摄像头]", images:"images/samsung2.png"};
@@ -108,8 +116,10 @@ window.onload = function(){
     var otherPhone14 = {name:"OPPO Ax5", desc:"[6.2inch,正面有流海]", images:"images/otherPhone14.png"};
 
 
-    var iphoneList = new this.Array(iphone1,iphone2,iphone3,iphone4,iphone5,iphone6,iphone8,iphone9,iphone10,iphone11);
-    var ipadList = new this.Array(ipad1, ipad2,ipad3, ipad4,ipad5,ipad6,ipad7, ipad8, ipad9, ipad10, ipad11, ipad12, ipad13);
+    var iphoneList = new this.Array(iphone1,iphone2,iphone3,iphone4,iphone5,iphone6,iphone8,iphone9,iphone10,iphone11,iphone12,
+        iphone13,iphone14,iphone15);
+    var ipadList = new this.Array(ipad1, ipad2,ipad3, ipad4,ipad5,ipad6,ipad7, ipad8, ipad9, ipad10, ipad11, ipad12, ipad13, ipad14,
+        ipad15, ipad16, ipad17);
     var samsungList = new this.Array(samsung1, samsung2, samsung3, samsung4, samsung5, samsung6, samsung7, samsung8, samsung9, samsung10,
         samsung11, samsung12, samsung13, samsung14, samsung15, samsung16, samsung17, samsung18, samsung19, samsung20, samsung21, samsung22,
         samsung23);
