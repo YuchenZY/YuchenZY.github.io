@@ -43,12 +43,12 @@ window.onload = function(){
     var case42={name:"Heavy duty slim",price:"35",image:"images/case42.png"};
     var case43={name:"Magnetic wallet with zip",price:"50",image:"images/case43.png"};
 
-    var iphone1 = {name:"Iphone11 Pro Max", desc:"[6.5 inches, 三个摄像头，屏幕大]", images:"images/iphone1.png"};
-    var iphone2 = {name:"Iphone11 Pro", desc:"[5.8 inches, 三个摄像头，屏幕小]", images:"images/iphone2.png"};
-    var iphone3 = {name:"Iphone11", desc:"[6.1 inches, 2个摄像头一个灯]", images:"images/iphone3.png"};
-    var iphone4 = {name:"Iphone XS MAX", desc:"[6.5 inches, 摄像头是竖着的]", images:"images/iphone4.png"};
-    var iphone5 = {name:"Iphone X/XS", desc:"[5.8 inches,两个摄像头]", images:"images/iphone5.png"};
-    var iphone6 = {name:"Iphone XR ", desc:"[6.1 inches, 1个摄像头]", images:"images/iphone6.png"};
+    var iphone1 = {name:"Iphone11 Pro Max", desc:"[6.5 inches, 三个摄像头，曲边]", images:"images/iphone1.png"};
+    var iphone2 = {name:"Iphone11 Pro", desc:"[5.8 inches, 三个摄像头，曲边]", images:"images/iphone2.png"};
+    var iphone3 = {name:"Iphone11", desc:"[6.1 inches, 2个摄像头一个灯，曲边]", images:"images/iphone3.png"};
+    var iphone4 = {name:"Iphone XS MAX", desc:"[6.5 inches, 摄像头是竖着的，曲边]", images:"images/iphone4.png"};
+    var iphone5 = {name:"Iphone X/XS", desc:"[5.8 inches,两个摄像头，曲边]", images:"images/iphone5.png"};
+    var iphone6 = {name:"Iphone XR ", desc:"[6.1 inches, 1个摄像头，曲边]", images:"images/iphone6.png"};
     var iphone8 = {name:"Iphone 7/8 plus", desc:"[5.5 inches, 横着摄像头,无耳机孔]", images:"images/iphone8.png"};
     var iphone9 = {name:"Iphone 7/8", desc:"[4.7 inches, 大摄像头小闪光灯，左中右结构]", images:"images/iphone9.png"};
     var iphone10 = {name:"Iphone 6/6s/6 Plus/6s Plus", desc:"[4.7/5.5 inches, 摄像头不过线，左中右结构，有耳机孔]", images:"images/iphone10.png"};
@@ -67,8 +67,8 @@ window.onload = function(){
     var ipad7 = {name:"IPAD Air2", desc:"[没有指纹解锁,收音孔在摄像头右侧，没有静音键，9.7inch]", images:"images/ipad7.png"};
     var ipad8 = {name:"IPAD 9.7(2017/2018)", desc:"[没有指纹解锁,收音孔在背部中间，没有静音键，9.7inch]", images:"images/ipad8.png"};
     var ipad9 = {name:"IPAD Pro 11", desc:"[没有Home键, 11inch]", images:"images/ipad9.png"};
-    var ipad10 = {name:"IPAD Pro 12.9inch(2015)", desc:"[摄像头和闪光灯是左右结构]", images:"images/ipad10.png"};
-    var ipad11 = {name:"IPAD Pro 12.9inch(2017)", desc:"[摄像头和闪光灯是上下结构]", images:"images/ipad11.png"};
+    var ipad10 = {name:"IPAD Pro 12.9inch(2015)", desc:"[12.9inch, 有homebutton, 摄像头和闪光灯是左右结构]", images:"images/ipad10.png"};
+    var ipad11 = {name:"IPAD Pro 12.9inch(2017)", desc:"[12.9inch, 摄像头和闪光灯是上下结构]", images:"images/ipad11.png"};
     var ipad12 = {name:"IPAD Pro 10.5inch", desc:"[摄像头和闪光灯是上下结构]", images:"images/ipad12.png"};
     var ipad13 = {name:"IPAD Pro 9.7inch(2016)", desc:"[摄像头和闪光灯是上下结构]", images:"images/ipad13.png"};
     var ipad14 = {name:"IPAD Air 4", desc:"指纹解锁，无静音键，无home button, 10.9inch, 四边为方形", images:"images/ipad14.jpg"};
@@ -99,6 +99,20 @@ window.onload = function(){
     var samsung21 = {name:"Samsung A10", desc:"[6.2inch,无Home键，左下角是两道纵向平行的扬声器]", images:"images/samsung21.png"};
     var samsung22 = {name:"Samsung A20/30", desc:"[6.4inch,有指纹解锁，背面左上角是纵向排列的摄像头和闪光灯]", images:"images/samsung22.png"};
     var samsung23 = {name:"Samsung A50", desc:"[无指纹解锁，背面左上角是纵向排列的三个摄像头和一个闪光灯]", images:"images/samsung23.png"};
+    var samsung24 = {name:"Samsung Galaxy S21", desc:"[6.2'' 金属模块套嵌”三个直立醒目大眼睛”, 独立闪光灯; Matte front and back glass, carrying on with S20’s edge to edge curved screen]", images:"images/samsung24.jpg"};
+    var samsung25 = {name:"Samsung Galaxy S21 plus", desc:"[6.7'' 直立三镜头, 独立闪光灯]", images:"images/samsung25.jpg"};
+    var samsung26 = {name:"Samsung Galaxy S21 Ultra", desc:"[6.8'' 稍宽长方形模块 - 4摄, 闪光灯上下居中]", images:"images/samsung26.jpg"};
+    var samsung27 = {name:"Samsung Galaxy S20 FE", desc:"[6.5'' 机身比S20大， 背盖为塑料材质， S20 旗舰版为玻璃背盖。]", images:"images/samsung27.jpg"};
+    var samsung28 = {name:"Samsung Galaxy S20 ultra", desc:"[6.9'' 四摄像头，底端显著大长方形Telephoto， 比S21 ultra的telephoto外观大]", images:"images/samsung28.jpg"};
+    var samsung29 = {name:"Samsung Galaxy Note 20", desc:"[6.7'' Glass front / plastic back]", images:"images/samsung29.jpg"};
+    var samsung30 = {name:"Samsung Galaxy Note 20 ultra", desc:"[6.9'' Glass front / glass back, Laser auto focus sensor under flash]", images:"images/samsung30.jpg"};
+    var samsung31 = {name:"Samsung J7 Pro 2017", desc:"[5.5'' Camera and flashlight cover by straight black outline]", images:"images/samsung31.png"};
+    var samsung32 = {name:"Samsung J5 Pro 2017", desc:"[5.2'' Camera and flashlight cover by straight black outline]", images:"images/samsung32.png"};
+    var samsung33 = {name:"Samsung J7 Prime (2016)", desc:"[5.5'' Single Camera in the middle with flash on the right]", images:"images/samsung33.png"};
+    var samsung34 = {name:"Samsung J5 Prime (2016)", desc:"[5'' Single Camera in the middle with flash on the right]", images:"images/samsung34.png"};
+    var samsung35 = {name:"Samsung A51 (2019)", desc:"[6.5'' 4 Camera with flash light]", images:"images/samsung35.png"};
+    var samsung36 = {name:"Samsung A70 (2019)", desc:"[6.7'' 背面左上有三个摄像头, 一个分开的闪光灯, 无指纹解锁]", images:"images/samsung36.png"};
+    var samsung37 = {name:"Samsung A8 (2018)", desc:"[5.6'' 形似S9，但是闪光灯只有小小一点]", images:"images/samsung37.png"};
     
     var otherPhone1 = {name:"HUAWEI P30", desc:"[6.15inch，正面是与Samsung A系列一样的中间一点摄像头，背面中间有圆形指纹解锁，左上角是三个摄像头和单独的闪光灯，左下角有logo]", images:"images/otherPhone1.png"};
     var otherPhone2 = {name:"HUAWEI P30 Pro", desc:"[6.47inch，正面是与Samsung A系列一样的中间一点摄像头，背面左上角是左右结构的三个摄像头和闪光灯，无指纹解锁，左下角有logo]", images:"images/otherPhone2.png"};
@@ -114,7 +128,20 @@ window.onload = function(){
     var otherPhone12 = {name:"OPPO A57", desc:"[正反面上方都是左中右结构，有Home键]", images:"images/otherPhone12.png"};
     var otherPhone13 = {name:"OPPO R17 Pro", desc:"[6.4inch,背面中间是上下结构三个摄像头和一个闪光灯]", images:"images/otherPhone13.png"};
     var otherPhone14 = {name:"OPPO Ax5", desc:"[6.2inch,正面有流海]", images:"images/otherPhone14.png"};
-
+    var otherPhone15 = {name:"HUAWEI P20 Pro (2018)", desc:"[6.1inch, 正面有Home键, 背面3个摄像头，1个闪光灯]", images:"images/otherPhone15.png"};
+    var otherPhone16 = {name:"HUAWEI P20 Lite / Nova 3e", desc:"[5.84'' No home button, Have fingerprint access on the back, Two cameras with flash, No speaking on the back]", images:"images/otherPhone16.png"};
+    var otherPhone17 = {name:"HUAWEI Mate 10 (2017)", desc:"[5.9inch, 直立雙鏡頭, Have Home Button]", images:"images/otherPhone17.png"};
+    var otherPhone18 = {name:"HUAWEI Mate 10 Lite/ Nova 2i (2017)", desc:"[5.9'' Two camera in one slot, Flash on top of the camera, Fingerprint access on the back, No home button]", images:"images/otherPhone18.png"};
+    var otherPhone19 = {name:"HUAWEI Mate 9 (2016)", desc:"[5.9inch]", images:"images/otherPhone19.png"};
+    var otherPhone20 = {name:"Pixel 2 XL (2017)", desc:"[6'' Front speaker on the very top of the screen 鏡頭->閃光燈]", images:"images/otherPhone20.png"};
+    var otherPhone21 = {name:"Pixel  (2016)", desc:"[5inch, Fingerprint access on the back, Flash -> Camera -> Speaker on the top]", images:"images/otherPhone21.png"};
+    var otherPhone22 = {name:"Pixel  XL (2016)", desc:"[5.5inch, Fingerprint access on the back, Flash -> Camera -> Speaker on the top, Cases normally (Camera Part) have a long hole]", images:"images/otherPhone22.png"};
+    var otherPhone23 = {name:"R17 (2018)", desc:"[6.4inch, Two camera lens with flash light, Only one front camera]", images:"images/otherPhone23.png"};
+    var otherPhone24 = {name:"R15 (2018)", desc:"[6.28inch, Two camera lens with flash light located on the right (similar to ip8 plus), Fingerprint access on the back]", images:"images/otherPhone24.png"};
+    var otherPhone25 = {name:"R11(2017)", desc:"[5.5'' Two camera lens with flash light located on the right (similar to ip8 plus), Has Home button, No fingerprint access]", images:"images/otherPhone25.png"};
+    var otherPhone26 = {name:"R11 Plus (2017)", desc:"[6'' Two camera lens with flash light located on the right (similar to ip8 plus), Has Home button, No fingerprint access]", images:"images/otherPhone26.png"};
+    var otherPhone27 = {name:"R11s (2017)", desc:"[6.01'' Two camera lens with flash light located on the right (similar to ip8 plus), *No home button, Fingerprint access on the back]", images:"images/otherPhone27.png"};
+    var otherPhone28 = {name:"R11s Plus (2017)", desc:"[6.43'' Two camera lens with flash light located on the right (similar to ip8 plus), No home button, Fingerprint access on the back]", images:"images/otherPhone28.png"};
 
     var iphoneList = new this.Array(iphone1,iphone2,iphone3,iphone4,iphone5,iphone6,iphone8,iphone9,iphone10,iphone11,iphone12,
         iphone13,iphone14,iphone15);
@@ -122,9 +149,11 @@ window.onload = function(){
         ipad15, ipad16, ipad17);
     var samsungList = new this.Array(samsung1, samsung2, samsung3, samsung4, samsung5, samsung6, samsung7, samsung8, samsung9, samsung10,
         samsung11, samsung12, samsung13, samsung14, samsung15, samsung16, samsung17, samsung18, samsung19, samsung20, samsung21, samsung22,
-        samsung23);
+        samsung23, samsung24, samsung25, samsung26, samsung27, samsung28, samsung29, samsung30, samsung31, samsung32, samsung33, samsung34,
+        samsung35, samsung36, samsung37);
     var otherPhoneList = new this.Array(otherPhone1, otherPhone2, otherPhone3, otherPhone4, otherPhone5, otherPhone6, otherPhone7, otherPhone8,
-        otherPhone9, otherPhone10, otherPhone11, otherPhone12, otherPhone13, otherPhone14);
+        otherPhone9, otherPhone10, otherPhone11, otherPhone12, otherPhone13, otherPhone14, otherPhone15, otherPhone16, otherPhone17, otherPhone18, otherPhone19, otherPhone20,
+        otherPhone21, otherPhone22, otherPhone23, otherPhone24, otherPhone25, otherPhone26, otherPhone27, otherPhone28);
     var caseList=new Array(case1, case2, case3, case4, case5, case6, case7, case8, case9, case10,case11, case12, case13, case14, case15, 
         case16, case17, case18, case19, case20, case21, case22, case23, case24, case25, case26, case27, case28, case29, case30, case31, 
         case32, case33, case34, case35, case36, case37, case38, case39, case40, case41, case42, case43);
@@ -321,7 +350,7 @@ window.onload = function(){
     var phoneQuestionGen = function(){
         var arr = iphoneList;
         var arr2 = iphoneList;
-        var loopNum = ipadList.length/5;
+        var loopNum = iphoneList.length/5;
         
         for(var i = 1; i <= loopNum; i++){
             var randomNumber = Math.floor((Math.random()*arr.length));
