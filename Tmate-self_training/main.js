@@ -15,7 +15,7 @@ window.onload = function(){
     var case14={name:"Tech case 菱格",price:"25",image:"images/case14.png"};
     var case15={name:"Tech pattern case",price:"25",image:"images/case15.png"};
     var case16={name:"Liquid silicon case",price:"25",image:"images/case16.png"};
-    var case17={name:"Bling back case",price:"30",image:"images/case17.png"};
+    var case17={name:"Diamond case",price:"30",image:"images/case17.png"};
     var case18={name:"Card case 圆角",price:"30",image:"images/case18.png"};
     var case19={name:"Fancy diary",price:"25",image:"images/case19.png"};
     var case20={name:"Pattern wallet",price:"30",image:"images/case20.png"};
@@ -42,6 +42,70 @@ window.onload = function(){
     var case41={name:"Heavy duty case",price:"35(5 extra for clip)",image:"images/case41.png"};
     var case42={name:"Heavy duty slim",price:"35",image:"images/case42.png"};
     var case43={name:"Magnetic wallet with zip",price:"50",image:"images/case43.png"};
+    var case44={name:"Slim soft",price:"10",image:"images/case44.png"};
+    var case45={name:"Bling armor case",price:"25",image:"images/case45.png"};
+    var case46={name:"Matt armor case",price:"25",image:"images/case46.png"};
+    var case47={name:"Roar rico armor case",price:"25",image:"images/case47.png"};
+    var case48={name:"Roar mirror armor case",price:"25",image:"images/case48.png"};
+    var case49={name:"Tech case (Dot)",price:"25",image:"images/case49.png"};
+    var case50={name:"Flower Case",price:"25",image:"images/case50.png"};
+    var case51={name:"Silicon cartoon case",price:"25",image:"images/case51.png"};
+    var case52={name:"Roar card case with mirror",price:"30",image:"images/case52.png"};
+    var case53={name:"Roar card case with stand",price:"30",image:"images/case53.png"};
+    var case54={name:"Hanman back flip card case",price:"35",image:"images/case54.png"};
+    var case55={name:"Puloka card case",price:"35",image:"images/case55.png"};
+    var case56={name:"EFM aspen armor case",price:"35",image:"images/case56.png"};
+    var case57={name:"Metal 360 armor case",price:"40",image:"images/case57.png"};
+    var case58={name:"Hanman slim",price:"30",image:"images/case58.png"};
+    var case59={name:"Sonata diary",price:"35",image:"images/case59.png"};
+    var case60={name:"Mansoor diary",price:"40",image:"images/case60.png"};
+    var case61={name:"Hanman magnetic case (old)",price:"40",image:"images/case61.png"};
+    var case62={name:"Hanman magnetic case (new) ",price:"40",image:"images/case62.png"};
+    var case63={name:"Molan Cano wallet case",price:"40",image:"images/case63.png"};
+    var case64={name:"BRG magnetic big wallet",price:"50",image:"images/case64.png"};
+    var case65={name:"Caseme magnetic wallet",price:"50",image:"images/case65.png"};
+    var case66={name:"EFM Monaco wallet case",price:"50",image:"images/case66.png"};
+    var case67={name:"Universal tablet case",price:"20",image:"images/case67.png"};
+    var case68={name:"Tablet Tech case",price:"25",image:"images/case68.png"};
+    var case69={name:"Tablet Hanman diary case",price:"35",image:"images/case69.png"};
+    var case70={name:"Kids cover - one handle",price:"35",image:"images/case70.png"};
+    var case71={name:"Kids cover - two handles",price:"35",image:"images/case71.png"};
+    var case72={name:"Kids cover - butterfly",price:"35",image:"images/case72.png"};
+    var case73={name:"Kids cover 10.2/10.5”",price:"35",image:"images/case73.png"};
+    var case74={name:"Bluetooth Keyboard Case",price:"70",image:"images/case74.png"};
+    var case75={name:"Mini car holder",price:"10",image:"images/case75.png"};
+    var case76={name:"Car hook",price:"20",image:"images/case76.png"};
+    var case77={name:"Tablet Car holder",price:"35",image:"images/case77.png"};
+    var case78={name:"Hoco lightning to type-c fast cable",price:"25",image:"images/case78.png"};
+    var case79={name:"Hoco 3 metres cable",price:"25",image:"images/case79.png"};
+    var case80={name:"Magnet ",price:"5",image:"images/case80.png"};
+    var case81={name:"Popsocket (White package)",price:"5",image:"images/case81.png"};
+    var case82={name:"Sim card adapter",price:"10",image:"images/case82.png"};
+    var case83={name:"Popsocket (Yellow & Blue package)/ I-ring",price:"10",image:"images/case83.png"};
+    var case84={name:"Popsocket (airbag)",price:"15",image:"images/case84.png"};
+    var case85={name:"Medium/ long stylus",price:"10",image:"images/case85.png"};
+    var case86={name:"Card holder with ring sticker",price:"15",image:"images/case86.png"};
+    var case87={name:"Selfie light",price:"15",image:"images/case87.png"};
+    var case88={name:"Waterproof pouch",price:"15",image:"images/case88.png"};
+    var case89={name:"Arm band",price:"15",image:"images/case89.png"};
+    var case90={name:"Portable tablet stand",price:"15",image:"images/case90.png"};
+    var case91={name:"Universal belt clip",price:"20",image:"images/case91.png"};
+    var case92={name:"EFM dual wall charger",price:"30",image:"images/case92.png"};
+    var case93={name:"4 in 1 camera lens",price:"35",image:"images/case93.png"};
+    var case94={name:"Bluetooth selfie stick with stand",price:"35",image:"images/case94.png"};
+    var case95={name:"Mini selfie stick",price:"35",image:"images/case95.png"};
+    var case96={name:"Cord car charger",price:"20",image:"images/case96.png"};
+    var case97={name:"3sixt 3.4A car charger set (with cable)",price:"30",image:"images/case97.png"};
+    var case98={name:"3sixt 5.4A quick car charger",price:"35",image:"images/case98.png"};
+    var case99={name:"3sixt 5.4A quick car charger set (with cable)",price:"40",image:"images/case99.png"};
+    var case100={name:"Airpods / Airpods pro rubber cover",price:"20",image:"images/case100.png"};
+    var case101={name:"Airpods pro leather looking cover",price:"25",image:"images/case101.png"};
+    var case102={name:"Nylon watch bands",price:"30",image:"images/case102.png"};
+    var case103={name:"Milane watch bands",price:"40",image:"images/case103.png"};
+    var case104={name:"Stainless steel watch bands",price:"60",image:"images/case104.png"};
+    var case105={name:"Stainless steel premium watch bands",price:"70",image:"images/case105.png"};
+
+
 
     var iphone1 = {name:"Iphone11 Pro Max", desc:"[6.5 inches, 三个摄像头，曲边]", images:"images/iphone1.png"};
     var iphone2 = {name:"Iphone11 Pro", desc:"[5.8 inches, 三个摄像头，曲边]", images:"images/iphone2.png"};
@@ -156,7 +220,10 @@ window.onload = function(){
         otherPhone21, otherPhone22, otherPhone23, otherPhone24, otherPhone25, otherPhone26, otherPhone27, otherPhone28);
     var caseList=new Array(case1, case2, case3, case4, case5, case6, case7, case8, case9, case10,case11, case12, case13, case14, case15, 
         case16, case17, case18, case19, case20, case21, case22, case23, case24, case25, case26, case27, case28, case29, case30, case31, 
-        case32, case33, case34, case35, case36, case37, case38, case39, case40, case41, case42, case43);
+        case32, case33, case34, case35, case36, case37, case38, case39, case40, case41, case42, case43, case44, case45, case46, case47, case48, case49, case50, case51,
+        case52, case53, case54, case55, case56, case57, case58, case59, case60, case61, case62, case63, case64, case65, case66, case67, case68, case69, case70, case71, case72, case73,
+        case74, case75, case76, case77, case78, case79, case80, case81, case82, case83, case84, case85, case86, case87, case88, case89, case90, case91, case92, case93, case94, case95,
+        case96, case97, case98, case99, case100, case101, case102, case103, case104, case105);
     
     var caseI = 1;
     var modelI = 1;
