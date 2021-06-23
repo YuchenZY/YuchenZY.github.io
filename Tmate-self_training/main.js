@@ -281,7 +281,7 @@ window.onload = function(){
         var loopNum = Math.min(10, otherPhoneList.length); //生成题目的数量
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = otherPhoneList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length)); //随机生成正确答案的index
             var rightAnswerPlace = Math.floor((Math.random()*4)); //正确答案在题目中的位置
             rightAnswer = arr[randomNumber];
@@ -340,7 +340,7 @@ window.onload = function(){
         var loopNum = Math.min(5, samsungList.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = day1List.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -398,7 +398,7 @@ window.onload = function(){
         var loopNum = Math.min(5, samsungList.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = iphoneList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -456,7 +456,7 @@ window.onload = function(){
         var loopNum = Math.min(5, ipadList.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = ipadList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -514,7 +514,7 @@ window.onload = function(){
         var loopNum = Math.min(10, day3List.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = day3List.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -572,7 +572,7 @@ window.onload = function(){
         var loopNum = Math.min(10, samsungList.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = samsungList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -629,7 +629,7 @@ window.onload = function(){
         var arr = otherTabList.slice();
         var loopNum = Math.min(10, otherTabList.length);
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = otherTabList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -687,7 +687,7 @@ window.onload = function(){
         var loopNum = Math.min(10, ipadList.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = ipadList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -745,7 +745,7 @@ window.onload = function(){
         var loopNum = Math.min(10, iphoneList.length);
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = iphoneList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
@@ -803,7 +803,7 @@ window.onload = function(){
         var loopNum = 10;
         
         for(var i = 1; i <= loopNum; i++){
-            var arr2 = caseList.slice();
+            var arr2 = arr.slice();
             var randomNumber = Math.floor((Math.random()*arr.length));
             var rightAnswerPlace = Math.floor((Math.random()*4));
             rightAnswer = arr[randomNumber];
