@@ -16,9 +16,23 @@
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mock Tests</a>
       <div class="dropdown-menu">
+        <a class="dropdown-item" id="day1Multi">Day 1 Multiple Choices Question</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" id="day1Fill">Day 1 Fill-in Question</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" id="day2Multi">Day 2 Multiple Choices Question</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" id="day2Fill">Day 2 Fill-in Question</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" id="day3Multi">Day 3 Multiple Choices Question</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" id="day3Fill">Day 3 Fill-in Question</a>
+        <div class="dropdown-divider"></div>
         <a class="dropdown-item" id="caseTestButton">Phone/Tablet Case and accesaries identification</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" id="modelTestButton">Phone/Tablet Model identification</a>
+        <a class="dropdown-item" id="modelTestButton">Phone/Ipad Model identification</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" id="stabTestButton">Samsung Tablet Model Identification</a>
       </div>
     </li>
   </ul>
@@ -30,6 +44,234 @@
       <h3><a href="https://docs.google.com/document/d/1iJcCNckkEwSum43xMUPY8QfSAW9EYV_GaOpPAThcpD8/edit?usp=sharing">Other</a></h3>
   </div>
 
+  <div class="width-80 flex_center_col" id="day1MultiDiv" style="display: none;"> <!--总体显示的id-->
+    <div class='alert alert-primary'  style='text-align: center;' role='alert' id="day1Mul_question_num" ></div>  <!--显示题目数量的id-->
+    <div id="day1Question"> <!--显示题目的id-->
+      <div class="flex_center_row row" id="day1Continue" style="margin-top: 40px;"> <!--continue button的id-->
+        <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="width-80 flex_center_col" id="day2MultiDiv" style="display: none;"> 
+    <div class='alert alert-primary'  style='text-align: center;' role='alert' id="day2Mul_question_num" ></div>  
+    <div id="day2Question"> 
+      <div class="flex_center_row row" id="day2Continue" style="margin-top: 40px;"> 
+        <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="width-80 flex_center_col" id="day3MultiDiv" style="display: none;"> 
+    <div class='alert alert-primary'  style='text-align: center;' role='alert' id="day3Mul_question_num" ></div>  
+    <div id="day3Question"> 
+      <div class="flex_center_row row" id="day3Continue" style="margin-top: 40px;"> 
+        <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="width-80 flex_center_col input-group mb-3" id="day1FillDiv" style="display: none;"> 
+      <div class='alert alert-primary'  style='text-align: center;' role='alert'>Day 1 Fill-in Question</div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">1. How much is the normal full cover glass protector for iPhone?</span>
+        </div>
+        <input type="text" class="form-control" id="day1Fill_1" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_1">
+        <div class="valid-feedback" id="day1Fill_1_right" style="display: none;">
+          Correct!
+        </div>
+        <div class="invalid-feedback" id="day1Fill_1_wrong" style="display: none;">
+          Should be '30'
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" >2. How much is the plastic screen protector for iPhone?</span>
+        </div>
+        <input type="text" class="form-control"  id="day1Fill_2" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_2">
+        <div class="valid-feedback" id="day1Fill_2_right" style="display: none;">
+          Correct!
+        </div>
+        <div class="invalid-feedback" id="day1Fill_2_wrong" style="display: none;">
+          Should be '10'
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" >3. How much is the curved full cover screen protector for Samsung phone?</span>
+        </div>
+        <input type="text" class="form-control" id="day1Fill_3" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_3">
+        <div class="valid-feedback" id="day1Fill_3_right" style="display: none;">
+          Correct!
+        </div>
+        <div class="invalid-feedback" id="day1Fill_3_wrong" style="display: none;">
+          Should be '40'
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" >4. Should you put a glass protector for iPhone8 on SE2 ?</span>
+        </div>
+        <input type="text" class="form-control"  id="day1Fill_4" placeholder="Answer 'Yes' or 'No'" aria-describedby="day1Fill_4">
+        <div class="valid-feedback" id="day1Fill_4_right" style="display: none;">
+          Correct!
+        </div>
+        <div class="invalid-feedback" id="day1Fill_4_wrong" style="display: none;">
+          Wrong QAQ
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" >5. Is there a speaker mask on the $20 glass protector of iPhone?</span>
+        </div>
+        <input type="text" class="form-control"  id="day1Fill_5" placeholder="Answer 'Yes' or 'No'" aria-describedby="day1Fill_5">
+        <div class="valid-feedback" id="day1Fill_5_right" style="display: none;">
+          Correct!
+        </div>
+        <div class="invalid-feedback" id="day1Fill_5_wrong" style="display: none;">
+          Wrong QAQ
+        </div>
+      </div>
+    <div class="flex_center_row row" style="margin-top: 40px;"> 
+      <button type="button" class="btn btn-primary col-8" style="display: block;" id="day1Submit" >Submit</button>
+    </div>
+  </div>
+
+  <div class="width-80 flex_center_col input-group mb-3" id="day2FillDiv" style="display: none;"> 
+    <div class='alert alert-primary'  style='text-align: center;' role='alert'>Day 2 Fill-in Question</div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">1. How much is the fancy diary for mobile phone?</span>
+      </div>
+      <input type="text" class="form-control" id="day2Fill_1" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_1">
+      <div class="valid-feedback" id="day2Fill_1_right" style="display: none;">
+        Correct!
+      </div>
+      <div class="invalid-feedback" id="day2Fill_1_wrong" style="display: none;">
+        Should be '25'
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" >2. How much is the heavy duty case for mobile phone?</span>
+      </div>
+      <input type="text" class="form-control"  id="day2Fill_2" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_2">
+      <div class="valid-feedback" id="day2Fill_2_right" style="display: none;">
+        Correct!
+      </div>
+      <div class="invalid-feedback" id="day2Fill_2_wrong" style="display: none;">
+        Should be '35'
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" >3. How much is the one piece armor case?</span>
+      </div>
+      <input type="text" class="form-control" id="day2Fill_3" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_3">
+      <div class="valid-feedback" id="day2Fill_3_right" style="display: none;">
+        Correct!
+      </div>
+      <div class="invalid-feedback" id="day2Fill_3_wrong" style="display: none;">
+        Should be '25'
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" >4. How much is the hanman magnetic case?</span>
+      </div>
+      <input type="text" class="form-control"  id="day2Fill_4" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_4">
+      <div class="valid-feedback" id="day2Fill_4_right" style="display: none;">
+        Correct!
+      </div>
+      <div class="invalid-feedback" id="day2Fill_4_wrong" style="display: none;">
+        Should be '40'
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" >5. How much is the slim heavy duty?</span>
+      </div>
+      <input type="text" class="form-control"  id="day2Fill_5" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_5">
+      <div class="valid-feedback" id="day2Fill_5_right" style="display: none;">
+        Correct!
+      </div>
+      <div class="invalid-feedback" id="day2Fill_5_wrong" style="display: none;">
+        Should be '40'
+      </div>
+    </div>
+  <div class="flex_center_row row" style="margin-top: 40px;"> 
+    <button type="button" class="btn btn-primary col-8" style="display: block;" id="day2Submit" >Submit</button>
+  </div>
+</div>
+
+<div class="width-80 flex_center_col input-group mb-3" id="day3FillDiv" style="display: none;"> 
+  <div class='alert alert-primary'  style='text-align: center;' role='alert'>Day 3 Fill-in Question</div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">1. How much is the normal vonk cable?</span>
+    </div>
+    <input type="text" class="form-control" id="day3Fill_1" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_1">
+    <div class="valid-feedback" id="day3Fill_1_right" style="display: none;">
+      Correct!
+    </div>
+    <div class="invalid-feedback" id="day3Fill_1_wrong" style="display: none;">
+      Should be '20'
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" >2. How much is the vonk smart cable?</span>
+    </div>
+    <input type="text" class="form-control"  id="day3Fill_2" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_2">
+    <div class="valid-feedback" id="day3Fill_2_right" style="display: none;">
+      Correct!
+    </div>
+    <div class="invalid-feedback" id="day3Fill_2_wrong" style="display: none;">
+      Should be '30'
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" >3. How much is the hoco 3 meters cable?</span>
+    </div>
+    <input type="text" class="form-control" id="day3Fill_3" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_3">
+    <div class="valid-feedback" id="day3Fill_3_right" style="display: none;">
+      Correct!
+    </div>
+    <div class="invalid-feedback" id="day3Fill_3_wrong" style="display: none;">
+      Should be '25'
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" >4. How much is the airpods pro leather case?</span>
+    </div>
+    <input type="text" class="form-control"  id="day3Fill_4" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_4">
+    <div class="valid-feedback" id="day3Fill_4_right" style="display: none;">
+      Correct!
+    </div>
+    <div class="invalid-feedback" id="day3Fill_4_wrong" style="display: none;">
+      Should be '25'
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" >5. How much is the Nylon watch bands?</span>
+    </div>
+    <input type="text" class="form-control"  id="day3Fill_5" placeholder="Your answer should be numbers only" aria-describedby="day1Fill_5">
+    <div class="valid-feedback" id="day3Fill_5_right" style="display: none;">
+      Correct!
+    </div>
+    <div class="invalid-feedback" id="day3Fill_5_wrong" style="display: none;">
+      Should be '30'
+    </div>
+  </div>
+<div class="flex_center_row row" style="margin-top: 40px;"> 
+  <button type="button" class="btn btn-primary col-8" style="display: block;" id="day3Submit" >Submit</button>
+</div>
+</div>
+  
   <div class="width-80 flex_center_col" id="caseDiv" style="display: none;">
     <div class='alert alert-primary'  style='text-align: center;' role='alert' id="case_question_num"></div>
     <div id="caseQuestion">
@@ -42,11 +284,21 @@
   <div class="width-80 flex_center_col" id="phoneDiv" style="display: none;">
     <div class='alert alert-primary'  style='text-align: center;' role='alert' id="model_question_num"></div>
     <div id="phoneQuestion">
-      <div class="flex_center_row row" id="caseContinue" style="margin-top: 40px;">
+      <div class="flex_center_row row" id="modelContinue" style="margin-top: 40px;">
         <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
       </div>
     </div>
   </div>
+
+  <div class="width-80 flex_center_col" id="stabDiv" style="display: none;">
+    <div class='alert alert-primary'  style='text-align: center;' role='alert' id="stab_question_num"></div>
+    <div id="stabQuestion">
+      <div class="flex_center_row row" id="stabContinue" style="margin-top: 40px;">
+        <button type="button" class="btn btn-primary col-8 continue-button" style="display: none;">Continue</button>
+      </div>
+    </div>
+  </div>
+
   <div class="width-80 flex_center_col" id="generalDiv" style="display: none;">
     <div class="width-80 flex_center_row">General</div>
   </div>
