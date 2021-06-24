@@ -1,4 +1,5 @@
 window.onload = function(){
+    console.log('updated 24/06/2021, 10am')
     var case1={name:"Soft jelly case",price:"15",image:"images/case1.png"};
     var case2={name:"Mercury soft",price:"20",image:"images/case2.png"};
     var case3={name:"Mercury SF(soft feeling)",price:"25",image:"images/case3.png"};
@@ -129,7 +130,7 @@ window.onload = function(){
     var ipad8 = {name:"IPAD 9.7(2017/2018)", desc:"[Camera only, no flash light，Touch ID home button, No silent button, Microphone on the middle, 9.7inch]", images:"images/ipad8.png"};
     var ipad9 = {name:"IPAD Pro 11(2018)", desc:"Many pin holes on top, No home button", images:"images/ipad9.png"};
     var ipad10 = {name:"IPAD Pro 12.9inch(2015)", desc:"[12.9inch, Camera and flash light beside each other, has home button]", images:"images/ipad10.png"};
-    // var ipad11 = {name:"IPAD Pro 12.9inch(2017)", desc:"[12.9inch, Vertical shape, camera on top and flash light under, has home button]", images:"images/ipad11.png"};
+    var ipad11 = {name:"IPAD Pro 12.9inch(2017)", desc:"[12.9inch, Vertical shape, camera on top and flash light under, has home button]", images:"images/ipad11.png"};
     var ipad12 = {name:"IPAD Pro 10.5inch", desc:"[Vertical shape, camera on top and flash light under, has home button]", images:"images/ipad12.png"};
     var ipad13 = {name:"IPAD Pro 9.7inch(2016)", desc:"Camera above the flash light", images:"images/ipad13.png"};
     var ipad14 = {name:"IPAD Air 4", desc:"Touch ID, No silent button & no home button, No flash light, Microphone on the middle, Square edge", images:"images/ipad14.jpg"};
@@ -221,7 +222,7 @@ window.onload = function(){
         case91, case92, case93, case94, case95, case96, case97, case98, case99, case100, case101, case102, case103, case104, case105);
     var iphoneList = new this.Array(iphone1,iphone2,iphone3,iphone4,iphone5,iphone6,iphone8,iphone9,iphone10,iphone11,iphone12,
         iphone13,iphone14,iphone15);
-    var ipadList = new this.Array(ipad1, ipad2,ipad3, ipad4,ipad5,ipad6,ipad7, ipad8, ipad9, ipad10, ipad12, ipad13, ipad14,
+    var ipadList = new this.Array(ipad1, ipad2,ipad3, ipad4,ipad5,ipad6,ipad7, ipad8, ipad9, ipad10, ipad11, ipad12, ipad13, ipad14,
         ipad15, ipad16, ipad17);
     var samsungList = new this.Array(samsung1, samsung2, samsung3, samsung4, samsung5, samsung7, samsung8, samsung9, samsung10,
         samsung11, samsung12, samsung13, samsung14, samsung15, samsung16, samsung17, samsung19, samsung20, samsung21, samsung22,
