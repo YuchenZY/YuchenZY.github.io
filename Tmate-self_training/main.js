@@ -1,5 +1,5 @@
 window.onload = function(){
-    console.log('updated 24/06/2021, 10am')
+    console.log('updated 24/06/2021, 10:14am')
     var case1={name:"Soft jelly case",price:"15",image:"images/case1.png"};
     var case2={name:"Mercury soft",price:"20",image:"images/case2.png"};
     var case3={name:"Mercury SF(soft feeling)",price:"25",image:"images/case3.png"};
@@ -926,8 +926,8 @@ window.onload = function(){
         $(".answer-case").removeClass("btn-success");
         $(".answer-case").removeClass("btn-danger");
         $(".answer-case").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-case right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-case wrong-answer");
+        $(".right-answer.answer-case").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-case right-answer");
+        $(".wrong-answer.answer-case").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-case wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             caseScore++;
@@ -939,8 +939,8 @@ window.onload = function(){
         $(".answer-phone").removeClass("btn-success");
         $(".answer-phone").removeClass("btn-danger");
         $(".answer-phone").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-phone right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-phone wrong-answer");
+        $(".right-answer.answer-phone").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-phone right-answer");
+        $(".wrong-answer.answer-phone").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-phone wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             phoneScore++;
@@ -951,8 +951,8 @@ window.onload = function(){
         $(".answer-stab").removeClass("btn-success");
         $(".answer-stab").removeClass("btn-danger");
         $(".answer-stab").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-stab right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-stab wrong-answer");
+        $(".right-answer.answer-stab").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-stab right-answer");
+        $(".wrong-answer.answer-stab").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-stab wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             stabScore++;
@@ -963,8 +963,8 @@ window.onload = function(){
         $(".answer-day1").removeClass("btn-success");
         $(".answer-day1").removeClass("btn-danger");
         $(".answer-day1").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-day1 right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-day1 wrong-answer");
+        $(".right-answer.answer-day1").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-day1 right-answer");
+        $(".wrong-answer.answer-day1").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-day1 wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             day1MultiScore++;
@@ -975,8 +975,8 @@ window.onload = function(){
         $(".answer-day2").removeClass("btn-success");
         $(".answer-day2").removeClass("btn-danger");
         $(".answer-day2").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-day2 right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-day2 wrong-answer");
+        $(".right-answer.answer-day2").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-day2 right-answer");
+        $(".wrong-answer.answer-day2").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-day2 wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             day2MultiScore++;
@@ -987,8 +987,8 @@ window.onload = function(){
         $(".answer-day3").removeClass("btn-success");
         $(".answer-day3").removeClass("btn-danger");
         $(".answer-day3").addClass("btn-secondary");
-        $(".right-answer").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-day3 right-answer");
-        $(".wrong-answer").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-day3 wrong-answer");
+        $(".right-answer.answer-day3").attr("class", "btn btn-success col-xl-2 col-sm-6 answer-day3 right-answer");
+        $(".wrong-answer.answer-day3").attr("class", "btn btn-danger col-xl-2 col-sm-6 answer-day3 wrong-answer");
         $(".continue-button").css("display", "block");
         if($(this).hasClass('right-answer')){
             day3MultiScore++;
