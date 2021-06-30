@@ -1101,10 +1101,13 @@ window.onload = function(){
         if($("#day3Fill_4").val() != 25){
             document.getElementById("day3Fill_4_wrong").style.display = "block";
         }
-        if($("#day3Fill_5").val() == 30){
+        if($("#day3Fill_5").val() == 'No'){
             document.getElementById("day3Fill_5_right").style.display = "block";
         }
-        if($("#day3Fill_5").val() != 30){
+        if($("#day3Fill_5").val() == 'no'){
+            document.getElementById("day3Fill_5_right").style.display = "block";
+        }
+        if($("#day3Fill_5").val() != 'No' && $("#day1Fill_5").val() != 'no'){
             document.getElementById("day3Fill_5_wrong").style.display = "block";
         }
     })
