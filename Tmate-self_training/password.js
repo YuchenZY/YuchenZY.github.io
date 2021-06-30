@@ -5,7 +5,7 @@ window.onload = function(){
        }
        else{
             document.getElementById("password_check_button").style.backgroundColor = "lightcoral";
-            document.getElementById("password_notice").innerHTML = "Password is not correct"
+            document.getElementById("password_notice").innerHTML = "Password is incorrect"
        }
     });
 }
