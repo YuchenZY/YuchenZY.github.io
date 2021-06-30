@@ -1,5 +1,5 @@
 window.onload = function(){
-    console.log('updated 24/06/2021, 10:14am')
+    console.log('updated 01/07/2021, 00:28am')
     var case1={name:"Soft jelly case",price:"15",image:"images/case1.png"};
     var case2={name:"Mercury soft",price:"20",image:"images/case2.png"};
     var case3={name:"Mercury SF(soft feeling)",price:"25",image:"images/case3.png"};
@@ -37,7 +37,7 @@ window.onload = function(){
     var case37={name:"Hoco M35 earphone",price:"25",image:"images/case37.png"};
     var case38={name:"Armor case with belt clip",price:"25",image:"images/case38.png"};
     var case39={name:"Card case 圆角",price:"30",image:"images/case39.png"};
-    var case40={name:"Back Card case",price:"30",image:"images/case40.png"};
+    var case40={name:"Back Card case",price:"35",image:"images/case40.png"};
     var case41={name:"Heavy duty case",price:"35(5 extra for clip)",image:"images/case41.png"};
     var case42={name:"Heavy duty slim",price:"35",image:"images/case42.png"};
     var case43={name:"Magnetic wallet with zip",price:"50",image:"images/case43.png"};
@@ -71,7 +71,7 @@ window.onload = function(){
     var case71={name:"Kids cover - two handles",price:"35",image:"images/case71.png"};
     var case72={name:"Kids cover - butterfly",price:"35",image:"images/case72.png"};
     var case73={name:"Kids cover 10.2/10.5”",price:"35",image:"images/case73.png"};
-    var case74={name:"Bluetooth Keyboard Case",price:"70",image:"images/case74.png"};
+    var case74={name:"Bluetooth Keyboard Case",price:"60(mini) or 70(big)",image:"images/case74.png"};
     var case75={name:"Mini car holder",price:"10",image:"images/case75.png"};
     var case76={name:"Car hook",price:"20",image:"images/case76.png"};
     var case77={name:"Tablet Car holder",price:"35",image:"images/case77.png"};
