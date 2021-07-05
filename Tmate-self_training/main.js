@@ -226,6 +226,7 @@ window.onload = function(){
     
     //day1 多选题题库(day1默认包含所有iPhone型号，即iphoneList的内容)
     var day1List = new Array(samsung1, samsung24, samsung25, samsung26, samsung27, samsung28, samsung29, samsung30, samsung7);
+    //day2 默认为ipad题库
     //day3 多选题题库
     var day3List = new Array(case75, case76, case77, case78, case79, case80, case81, case82, case83, case84, case85, case86, case87, case88, case89, case90,
         case91, case92, case93, case94, case95, case96, case97, case98, case99, case100, case101, case102, case103, case104, case105);
