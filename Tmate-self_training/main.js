@@ -123,7 +123,6 @@ window.onload = function(){
     var iphone13 = {name:"Iphone 12 Pro", desc:"[6.1 inches, triple rear cameras，verticle edge]", images:"images/iphone13.jpg"};
     var iphone14 = {name:"Iphone 12", desc:"[6.1 inches, two rear cameras，verticle edge]", images:"images/iphone14.jpg"};
     var iphone15 = {name:"Iphone 12 mini", desc:"[5.4 inches, two rear cameras，verticle edge]", images:"images/iphone15.jpg"};
-    var iphone16 = {name:"Iphone 13", desc:"[6.1 inches, two camera...]", images:"images/iphone16.jpg"};
 
     //Ipad
     var ipad1 = {name:"IPAD mini 3", desc:"[Microphone hole in the middle, touch ID unlock, single camera, slient button]", images:"images/ipad1.png"};
@@ -232,7 +231,7 @@ window.onload = function(){
         case91, case92, case93, case94, case95, case96, case97, case98, case99, case100, case101, case102, case103, case104, case105);
     //iphone 题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” 
     var iphoneList = new this.Array(iphone1,iphone2,iphone3,iphone4,iphone5,iphone6,iphone8,iphone9,iphone10,iphone11,iphone12,
-        iphone13,iphone14,iphone15,iphone16);
+        iphone13,iphone14,iphone15);
     //ipad 题库，同时也是day2 题库； 此外， iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” 
     var ipadList = new this.Array(ipad1, ipad2,ipad3, ipad4,ipad5,ipad6,ipad7, ipad8, ipad9, ipad10, ipad11, ipad12, ipad13, ipad14,
         ipad15, ipad16, ipad17);
