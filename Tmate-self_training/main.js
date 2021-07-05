@@ -224,39 +224,39 @@ window.onload = function(){
     var otherTablet12 = {name:"S3 9.7” T820 (2017)", desc:"[Square camera on the middle top Flash light just under the camera]", images:"images/otherTab12.png"};
     var otherTablet13 = {name:"S2 8” T710 (2015)", desc:"[One single camera on the back]", images:"images/otherTab13.png"};
     
-    //day1 多选题题库(day1默认包含所有iPhone型号，即iphoneList的内容)
+    //day1 多选题题库(day1默认包含所有iPhone型号，即iphoneList的内容)； 可加入型号
     var day1List = new Array(samsung1, samsung24, samsung25, samsung26, samsung27, samsung28, samsung29, samsung30, samsung7);
     //day2 默认为ipad题库
-    //day3 多选题题库
+    //day3 多选题题库；可加入产品
     var day3List = new Array(case75, case76, case77, case78, case79, case80, case81, case82, case83, case84, case85, case86, case87, case88, case89, case90,
         case91, case92, case93, case94, case95, case96, case97, case98, case99, case100, case101, case102, case103, case104, case105);
-    //iphone 题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” 
+    //iphone 题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” ；可加入型号
     var iphoneList = new this.Array(iphone1,iphone2,iphone3,iphone4,iphone5,iphone6,iphone8,iphone9,iphone10,iphone11,iphone12,
         iphone13,iphone14,iphone15);
-    //ipad 题库，同时也是day2 题库； 此外， iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” 
+    //ipad 题库，同时也是day2 题库； 此外， iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” ；可加入型号
     var ipadList = new this.Array(ipad1, ipad2,ipad3, ipad4,ipad5,ipad6,ipad7, ipad8, ipad9, ipad10, ipad11, ipad12, ipad13, ipad14,
         ipad15, ipad16, ipad17);
-    //三星主流手机型号题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” 
+    //三星主流手机型号题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” ；可加入型号
     var samsungList = new this.Array(samsung1, samsung2, samsung3, samsung4, samsung5, samsung7, samsung8, samsung9, samsung10,
         samsung11, samsung12, samsung13, samsung14, samsung15, samsung16, samsung17, samsung19, samsung20, samsung21, samsung22,
         samsung23, samsung24, samsung25, samsung26, samsung27, samsung28, samsung29, samsung30, samsung31, samsung32, samsung33, samsung34,
         samsung35, samsung36);
-    //小型号手机题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” 
+    //小型号手机题库； iphone, ipad, 三星主流型号题库， 以及小型号手机题库 共同组成主页上的 “phone/ipad model identification” ；可加入型号
     var otherPhoneList = new this.Array(otherPhone1, otherPhone2, otherPhone3, otherPhone4, otherPhone5, otherPhone6, otherPhone7, otherPhone8,
         otherPhone9, otherPhone10, otherPhone11, otherPhone12, otherPhone13, otherPhone14, otherPhone15, otherPhone16, otherPhone17, otherPhone18, otherPhone19, otherPhone20,
         otherPhone21, otherPhone22, otherPhone23, otherPhone24, otherPhone25, otherPhone26, otherPhone27, otherPhone28);
-    //店内产品题库， 也就是主页上的"case and accessaries identification" 
+    //店内产品题库， 也就是主页上的"case and accessaries identification" ；可加入产品
     var caseList=new Array(case1, case2, case3, case4, case5, case6, case7, case8, case9, case10,case11, case12, case14, case15, 
         case16, case17, case18, case19, case20, case21, case23, case24, case25, case26, case27, case28, case29, case30, case31, 
         case32, case33, case34, case35, case36, case37, case38, case39, case40, case41, case42, case43, case44, case45, case46, case47, case48, case49, case50, case51,
         case52, case53, case54, case55, case56, case57, case58, case59, case60, case61, case62, case63, case64, case65, case66, case67, case68, case69, case70, case71, case72, case73,
         case74, case75, case76, case77, case78, case79, case80, case81, case82, case83, case84, case85, case86, case87, case88, case89, case90, case91, case92, case93, case94, case95,
         case96, case97, case98, case99, case100, case101, case102, case103, case104, case105, case106);
-    //三星平板题库，也就是主页上的 “samsung tablet model identification”
+    //三星平板题库，也就是主页上的 “samsung tablet model identification”；可加入型号
     var otherTabList=new Array(otherTablet1, otherTablet2, otherTablet3, otherTablet4, otherTablet5, otherTablet6, otherTablet7, otherTablet8, otherTablet9, otherTablet10, otherTablet11,
         otherTablet12, otherTablet13);
     
-    //以下18行建议别动
+    //以下18行不建议修改
     var caseI = 1;
     var modelI = 1;
     var stabI = 1;
