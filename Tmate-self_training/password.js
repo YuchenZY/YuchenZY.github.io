@@ -1,5 +1,6 @@
 window.onload = function(){
     $(document).on('click','#password_check_button',function(){
+         //密码
        if(document.getElementById("exampleInputPassword1").value == "3333"){
             window.location.href="homepage.html"  
        }
